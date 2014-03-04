@@ -28,7 +28,7 @@ Manually:
 git clone git://github.com/brandon-barker/node-xgminer.git xgminer
 ```
 
-## Example
+## Examples
 
 Connect to cgminer API and return a 'summary'
 ```javascript
@@ -37,6 +37,19 @@ var xgminer = require('xgminer');
 var client = new xgminer(host, port);
 
 client.summary().then(function (data) {
+  console.log(data);
+}, function (err) {
+  // an error occurred
+});
+```
+
+Connect to cgminer API and return a disable GPU 0
+```javascript
+var xgminer = require('xgminer');
+
+var client = new xgminer(host, port);
+
+client.disableGpu('0').then(function (data) {
   console.log(data);
 }, function (err) {
   // an error occurred
