@@ -1,7 +1,7 @@
 {
   "name": "xgminer",
-  "version": "0.0.1",
-  "description": "A npm module to provide an API client for cgminer (supports sgminer/bfgminer)",
+  "version": "0.0.2",
+  "description": "An npm module to provide an API client for cgminer (supports sgminer/bfgminer)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,5 +24,9 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/brandon-barker/node-xgminer/issues"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "q": "~1.0.0"
   }
 }
