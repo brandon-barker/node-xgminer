@@ -1,6 +1,6 @@
 /*!
  * (x)gminer
- * Copyright(c) 2013 Brandon Barker <https://github.com/brandon-barker>
+ * Copyright(c) 2014 Brandon Barker <https://github.com/brandon-barker>
  * GPL v2 Licensed
  */
 
