@@ -1,0 +1,137 @@
+[
+  {
+    "name": "version",
+    "parameters": "",
+    "reply": "VERSION"
+  },
+  {
+    "name": "config",
+    "parameters": "",
+    "reply": "CONFIG"
+  },
+  {
+    "name": "summary",
+    "parameters": "",
+    "reply": "SUMMARY"
+  },
+  {
+    "name": "pools",
+    "parameters": "",
+    "reply": "POOLS"
+  },
+  {
+    "name": "devs",
+    "parameters": "",
+    "reply": "DEVS"
+  },
+  {
+    "name": "gpu",
+    "parameters": "N",
+    "reply": "GPU"
+  },
+  {
+    "name": "gpuenable",
+    "parameters": "N",
+    "reply": "none"
+  },
+  {
+    "name": "gpudisable",
+    "parameters": "N",
+    "reply": "none"
+  },
+  {
+    "name": "gpudisable",
+    "parameters": "N",
+    "reply": "none"
+  },
+  {
+    "name": "switchpool",
+    "parameters": "N",
+    "reply": "none"
+  },
+  {
+    "name": "enablepool",
+    "parameters": "N",
+    "reply": "none"
+  },
+  {
+    "name": "addpool",
+    "parameters": "URL,USR,PASS",
+    "reply": "none"
+  },
+  {
+    "name": "poolpriority",
+    "parameters": "N",
+    "reply": "none"
+  },
+  {
+    "name": "poolquota",
+    "parameters": "N,Q",
+    "reply": "none"
+  },
+  {
+    "name": "disablepool",
+    "parameters": "N",
+    "reply": "none"
+  },
+  {
+    "name": "removepool",
+    "parameters": "N",
+    "reply": "none"
+  },
+  {
+    "name": "save",
+    "parameters": "filename",
+    "reply": "none"
+  },
+  {
+    "name": "quit",
+    "parameters": "",
+    "reply": "none"
+  },
+  {
+    "name": "notify",
+    "parameters": "",
+    "reply": "none"
+  },
+  {
+    "name": "privileged",
+    "parameters": "",
+    "reply": "none"
+  },
+  {
+    "name": "devdetails",
+    "parameters": "",
+    "reply": "none"
+  },
+  {
+    "name": "restart",
+    "parameters": "",
+    "reply": "none"
+  },
+  {
+    "name": "stats",
+    "parameters": "",
+    "reply": "none"
+  },
+  {
+    "name": "check",
+    "parameters": "cmd",
+    "reply": "none"
+  },
+  {
+    "name": "coin",
+    "parameters": "",
+    "reply": "none"
+  },
+  {
+    "name": "setconfig",
+    "parameters": "name,N",
+    "reply": "none"
+  },
+  {
+    "name": "zero",
+    "parameters": "Which,true/false",
+    "reply": "none"
+  }
+]
