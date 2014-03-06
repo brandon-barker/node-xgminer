@@ -19,7 +19,7 @@ This module was developed for [nodeminer](https://github.com/brandon-barker/node
 * Supports all scrypt based API commands
 * Promise (q) library
 
-## Supported API Commands
+## API Commands
 
 For a list of supported API commands take a look at the [commands.json](https://github.com/brandon-barker/node-xgminer/blob/master/lib/config/commands.json) file (proper wiki/documentation coming soon)
 
