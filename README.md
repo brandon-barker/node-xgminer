@@ -13,11 +13,15 @@ Although ASIC / FPGA commands may work, they have not been tested
 
 This module was developed for [nodeminer](https://github.com/brandon-barker/nodeminer), a Web UI for mining scrypt based cryptocurrencies, but will be developed and maintained seperately to provide more usability for the community.
 
-It is currently still being developed and not quite production ready as yet, although some basic functionality is available already. (summary / devs / pools / enableGpu / disableGpu)
-
 ## Features
 
-* Supports cgminer / sgminer / bfgminer
+* cgminer / bfgminer / sgminer support
+* Supports all scrypt based API commands
+* Promise (q) library
+
+## API Commands
+
+For a list of supported API commands take a look at the [commands.json](https://github.com/brandon-barker/node-xgminer/blob/master/lib/config/commands.json) file (proper wiki/documentation coming soon)
 
 ## Installation
 
@@ -45,13 +49,26 @@ client.summary().then(function (data) {
 });
 ```
 
-Connect to cgminer API and return a disable GPU 0
+Connect to cgminer API and disable GPU 0
 ```javascript
 var xgminer = require('xgminer');
 
 var client = new xgminer(host, port);
 
-client.disableGpu('0').then(function (data) {
+client.gpudisable('0').then(function (data) {
+  console.log(data);
+}, function (err) {
+  // an error occurred
+});
+```
+
+Connect to cgminer API and zero all stats
+```javascript
+var xgminer = require('xgminer');
+
+var client = new xgminer(host, port);
+
+client.zero('all,true').then(function (data) {
   console.log(data);
 }, function (err) {
   // an error occurred
