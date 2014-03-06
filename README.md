@@ -13,6 +13,8 @@ Although ASIC / FPGA commands may work, they have not been tested
 
 This module was developed for [nodeminer](https://github.com/brandon-barker/nodeminer), a Web UI for mining scrypt based cryptocurrencies, but will be developed and maintained seperately to provide more usability for the community.
 
+It is currently still being developed and not quite production ready as yet, although some basic functionality is available already. (summary / devs / pools / enableGpu / disableGpu)
+
 ## Features
 
 * Supports cgminer / sgminer / bfgminer
