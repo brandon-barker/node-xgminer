@@ -1,6 +1,6 @@
 {
   "name": "xgminer",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "An npm module to provide an API client for cgminer (supports sgminer/bfgminer)",
   "main": "index.js",
   "scripts": {

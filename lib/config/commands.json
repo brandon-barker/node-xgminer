@@ -133,5 +133,30 @@
     "name": "zero",
     "parameters": "Which,true/false",
     "reply": "none"
+  },
+  {
+    "name": "gpuintensity",
+    "parameters": "N,I",
+    "reply": "none"
+  },
+  {
+    "name": "gpumem",
+    "parameters": "N,V",
+    "reply": "none"
+  },
+  {
+    "name": "gpuengine",
+    "parameters": "N,V",
+    "reply": "none"
+  },
+  {
+    "name": "gpufan",
+    "parameters": "N,V",
+    "reply": "none"
+  },
+  {
+    "name": "gpuvddc",
+    "parameters": "N,V",
+    "reply": "none"
   }
 ]
