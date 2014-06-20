@@ -15,7 +15,7 @@ This module was developed for [nodeminer](https://github.com/brandon-barker/node
 
 ## Features
 
-* cgminer / bfgminer / sgminer support
+* Supports all cgminer variants 
 * Supports all scrypt based API commands
 * Promise (q) library
 
